@@ -1,0 +1,98 @@
+[
+  {
+    "key": "leadership",
+    "name": "Leadership",
+    "items": [6, 16, 27, 43, 65],
+    "description": "Leadership aids the body by leading and directing members to accomplish the goals and purposes of the church. Leadership motivates people to work together in unity toward common goals (Rom. 12:8)."
+  },
+  {
+    "key": "administration",
+    "name": "Administration",
+    "items": [1, 17, 31, 47, 59],
+    "description": "Persons with the gift of administration lead the body by steering others to remain on task. Administration enables the body to organize according to God-given purposes and long-term goals (1 Cor. 12:28)."
+  },
+  {
+    "key": "teaching",
+    "name": "Teaching",
+    "items": [2, 18, 33, 61, 73],
+    "description": "Teaching is instructing members in the truths and doctrines of God's Word for the purposes of building up, unifying, and maturing the body (1 Cor. 12:28; Rom. 12:7; Eph. 4:11)."
+  },
+  {
+    "key": "knowledge",
+    "name": "Knowledge",
+    "items": [9, 24, 39, 68, 79],
+    "description": "The gift of knowledge manifests itself in teaching and training in discipleship. It is the God-given ability to learn, know, and explain the precious truths of God's Word. A word of knowledge is a Spirit-revealed truth (1 Cor. 12:28)."
+  },
+  {
+    "key": "wisdom",
+    "name": "Wisdom",
+    "items": [3, 19, 48, 62, 74],
+    "description": "Wisdom is the gift that discerns the work of the Holy Spirit in the body and applies His teachings and actions to the needs of the body (1 Cor. 12:28)."
+  },
+  {
+    "key": "prophecy",
+    "name": "Prophecy",
+    "items": [10, 25, 40, 54, 69],
+    "description": "The gift of prophecy is proclaiming the Word of God boldly. This builds up the body and leads to conviction of sin. Prophecy manifests itself in preaching and teaching (1 Cor. 12:10; Rom. 12:6)."
+  },
+  {
+    "key": "discernment",
+    "name": "Discernment",
+    "items": [11, 26, 41, 55, 70],
+    "description": "Discernment aids the body by recognizing the true intentions of those within or related to the body. Discernment tests the message and actions of others for the protection and well-being of the body (1 Cor. 12:10)."
+  },
+  {
+    "key": "exhortation",
+    "name": "Exhortation",
+    "items": [20, 34, 49, 63, 75],
+    "description": "Possessors of this gift encourage members to be involved in and enthusiastic about the work of the Lord. Members with this gift are good counselors and motivate others to service. Exhortation exhibits itself in preaching, teaching, and ministry (Rom. 12:8)."
+  },
+  {
+    "key": "shepherding",
+    "name": "Shepherding",
+    "items": [4, 21, 35, 50, 76],
+    "description": "The gift of shepherding is manifested in people who look out for the spiritual welfare of others. Although pastors, like shepherds, do care for members of the church, this gift is not limited to a pastor or staff member (Eph. 4:11)."
+  },
+  {
+    "key": "faith",
+    "name": "Faith",
+    "items": [12, 28, 42, 56, 80],
+    "description": "Faith trusts God to work beyond the human capabilities of the people. Believers with this gift encourage others to trust in God in the face of apparently insurmountable odds (1 Cor. 12:9)."
+  },
+  {
+    "key": "evangelism",
+    "name": "Evangelism",
+    "items": [5, 36, 51, 64, 77],
+    "description": "God gifts his church with evangelists to lead others to Christ effectively and enthusiastically. This gift builds up the body by adding new members to its fellowship (Eph. 4:11)."
+  },
+  {
+    "key": "apostleship",
+    "name": "Apostleship",
+    "items": [13, 29, 44, 57, 71],
+    "description": "The church sends apostles from the body to plant churches or be missionaries. Apostles motivate the body to look beyond its walls in order to carry out the Great Commission (1 Cor. 12:28; Eph. 4:11)."
+  },
+  {
+    "key": "serviceHelps",
+    "name": "Service / Helps",
+    "items": [14, 30, 46, 58, 72],
+    "description": "Those with the gift of service/helps recognize practical needs in the body and joyfully give assistance to meeting those needs. Christians with this gift do not mind working behind the scenes (1 Cor. 12:28; Rom. 12:7)."
+  },
+  {
+    "key": "mercy",
+    "name": "Mercy",
+    "items": [7, 22, 37, 52, 66],
+    "description": "Cheerful acts of compassion characterize those with the gift of mercy. Persons with this gift aid the body by empathizing with hurting members. They keep the body healthy and unified by keeping others aware of the needs within the church (Rom. 12:8)."
+  },
+  {
+    "key": "giving",
+    "name": "Giving",
+    "items": [8, 23, 38, 53, 67],
+    "description": "Members with the gift of giving give freely and joyfully to the work and mission of the body. Cheerfulness and liberality are characteristics of individuals with this gift (Rom. 12:8)."
+  },
+  {
+    "key": "hospitality",
+    "name": "Hospitality",
+    "items": [15, 32, 45, 60, 78],
+    "description": "Those with this gift make visitors, guests, and strangers feel at ease. They often use their home to entertain guests. Persons with this gift integrate new members into the body (1 Pet. 4:9)."
+  }
+]

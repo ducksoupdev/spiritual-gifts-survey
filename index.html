@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Spiritual Gifts Survey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="app">
+      <!-- START PAGE -->
+      <section id="start-page" class="card">
+        <div class="start-layout-header">
+          <div class="start-intro">
+            <span class="tag">Spiritual Gifts Survey</span>
+            <h1>Discover your spiritual gifts</h1>
+
+            <p>
+              This survey will help you to understand how God has gifted you.
+            </p>
+
+            <p>
+              It is not a test, so there are no wrong answers.
+            </p>
+              
+            <p>
+              The survey consists of 80 statements; you will rate how accurately
+              each statement describes you. 
+              Some statements reflect concrete actions, other statements are descriptive traits, and still
+              others are statements of belief.
+            </p>
+
+            <ul class="start-bullets">
+              <li>
+                Select the one response you feel best characterizes yourself.
+              </li>
+              <li>
+                Do not spend too much time on any one item. Remember, it is not
+                a test. Usually your immediate response is best.
+              </li>
+              <li>
+                Please give an answer for each item. Do not skip any items.
+              </li>
+              <li>
+                Do not ask others how they are answering or how they think you
+                should answer.
+              </li>
+              <li>Work at your own pace.</li>
+            </ul>
+
+            <div class="start-scale-grid">
+              <strong>Response scale</strong>
+
+              <div class="start-scale-row">
+                <div>5</div>
+                <div>Almost always true of me</div>
+              </div>
+
+              <div class="start-scale-row">
+                <div>4</div>
+                <div>Often true of me</div>
+              </div>
+
+              <div class="start-scale-row">
+                <div>3</div>
+                <div>Sometimes true of me</div>
+              </div>
+
+              <div class="start-scale-row">
+                <div>2</div>
+                <div>Occasionally true of me</div>
+              </div>
+
+              <div class="start-scale-row">
+                <div>1</div>
+                <div>Almost never true of me</div>
+              </div>
+            </div>
+          </div>
+          <div class="start-actions">
+            <button id="start-btn" class="primary">
+              Start assessment
+              <span aria-hidden="true">➜</span>
+            </button>
+            <div class="pill">
+              <span class="key">Approx.</span> 10–15 minutes • 80 items • 16
+              gift areas
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- QUIZ PAGE -->
+      <section id="quiz-page" class="card hidden" aria-live="polite">
+        <div class="quiz-header">
+          <div class="progress-wrapper">
+            <div class="progress-label-row">
+              <span class="muted">Progress</span>
+              <span id="progress-text" class="muted">0 / 80 answered</span>
+            </div>
+            <sg-progress id="progress-bar"></sg-progress>
+          </div>
+          <div class="page-indicator" id="page-indicator">Page 1 of 8</div>
+        </div>
+
+        <form id="question-form" novalidate>
+          <div id="question-container" class="quiz-body"></div>
+        </form>
+
+        <div class="quiz-footer">
+          <span id="quiz-error" class="quiz-error" aria-live="polite"></span>
+
+          <div class="quiz-footer-row">
+            <div class="quiz-footer-left">
+              <button id="prev-btn" class="secondary" type="button" disabled>
+                ← Previous
+              </button>
+            </div>
+            <div class="quiz-footer-right">
+              <button id="next-btn" class="secondary" type="button">
+                Next page →
+              </button>
+              <button id="submit-btn" class="primary hidden" type="button">
+                View my results
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RESULTS PAGE -->
+      <section id="results-page" class="card hidden">
+        <div class="tag">Your spiritual gifts profile</div>
+        <h2>Results overview</h2>
+        <p class="muted">
+          Each gift area is scored from 0 to 25. Higher scores indicate your
+          strongest areas of gifting.
+        </p>
+
+        <div class="results-layout">
+          <div class="results-highlight">
+            <h3>Top gifts</h3>
+            <div id="score-summary"></div>
+            <p class="hook-note">
+              This is a starting point for prayer and conversation, not a final
+              label. Invite trusted leaders or friends to help you discern how
+              to use these gifts in real ministry.
+            </p>
+          </div>
+
+          <div class="results-table-wrapper">
+            <table class="results-table" aria-label="Gift scores table">
+              <thead>
+                <tr>
+                  <th>Gift area</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody id="score-table-body">
+                <!-- Filled dynamically -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div>
+          <h3 style="margin-top: 0.75rem">Gift areas</h3>
+          <div id="result-descriptions" class="results-desc-list">
+            <!-- Filled dynamically -->
+          </div>
+        </div>
+
+        <div class="results-actions">
+          <button id="restart-btn" class="secondary" type="button">
+            Retake assessment
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
